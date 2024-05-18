@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.quiz-container {
+    text-align: center;
+}
+
+#quiz-body {
+    margin: 20px 0;
+}
+
+#feedback {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#submit-btn:disabled, #review-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
